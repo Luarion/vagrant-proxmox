@@ -1,0 +1,16 @@
+[global]
+keyboard = "es"
+country = "es"
+fqdn = "pve.example.com"
+mailto = "mail@example.com"
+timezone = "Europe/Madrid"
+root-password = "vagrantroot"
+root-ssh-keys = []
+
+[network]
+source = "from-dhcp"
+
+[disk-setup]
+filesystem = "zfs"
+zfs.raid="raid0"
+disk-list = ["sda", "sdb"]

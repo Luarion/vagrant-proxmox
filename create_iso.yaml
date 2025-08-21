@@ -1,1 +1,3 @@
-proxmox-auto-install-assistant prepare-iso proxmox-ve_9.0-1 --fetch-from http --url https://raw.github.com/Luarion/vagrant-proxmox/blob/main/answer.toml
+apt update &&
+apt install -y proxmox-auto-install-assistant &&
+proxmox-auto-install-assistant prepare-iso proxmox-ve_9.0-1.iso --fetch-from http --url https://raw.github.com/Luarion/vagrant-proxmox/blob/main/answer.toml
