@@ -1,0 +1,1 @@
+proxmox-auto-install-assistant prepare-iso proxmox-ve_9.0-1 --fetch-from http --url https://raw.github.com/Luarion/vagrant-proxmox/blob/main/answer.toml
